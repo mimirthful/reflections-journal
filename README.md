@@ -9,7 +9,8 @@ The finished product aim's to be a stoic reflections journal, where the user can
 The saved journaling items would be saved on a local database, which is connected to a local running API.
 User would be able to favorite, edit and delete journal items.
 
-11.3.2026
+## Updates  
+**11.3.2026**  
 Currently on the dev side, there's now an existing SQLite database, and the functionality to add and remove reflections.
 My next steps are probably adding some error handling with feedback to the user to see, including error messages, action succesful messages and warnings.
 
