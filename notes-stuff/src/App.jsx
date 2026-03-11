@@ -1,8 +1,7 @@
-
-import './App.css'
 import TodoList from './TodoList'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
+import { Container } from '@mui/material';
 
 function App() {
 
@@ -12,11 +11,15 @@ function App() {
     },
   });
 
+
+
   return (
     <>
-        <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      <TodoList/>
+      <ThemeProvider theme={darkTheme}>
+        <CssBaseline />
+        <Container maxWidth='sm'>
+          <TodoList/>
+        </Container>
       </ThemeProvider>
     </>
   )

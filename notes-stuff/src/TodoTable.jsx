@@ -16,7 +16,7 @@ export default function TodoTable({todos, deleteTodo})
             alignItems: "flex-start",
             }}>
             <TodoResultCard  todo={todo}></TodoResultCard> 
-            <DeleteButton onClick={() => deleteTodo(index)}/>
+            <DeleteButton onClick={() => deleteTodo(todo.id)}/>
         </Stack>})
 
     //Presents the cards in a stack
